@@ -1,7 +1,3 @@
-#This function finds any AppX/AppXProvisioned package and uninstalls it, except for Freshpaint, Windows Calculator, Windows Store, and Windows Photos.
-#Also, to note - This does NOT remove essential system services/software/etc such as .NET framework installations, Cortana, Edge, etc.
-
-#This is the switch parameter for running this script as a 'silent' script, for use in MDT images or any type of mass deployment without user interaction.
 
 param (
   [switch]$Debloat, [switch]$SysPrep
